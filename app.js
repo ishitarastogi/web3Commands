@@ -1,6 +1,6 @@
 const Web3 = require('web3');
 
-const web3 = new Web3(new Web3.providers.HttpProvider('https://rinkeby.infura.io/v3/65fe2fc1d0cd42e9a4d4bb83f607d9be'));
+const web3 = new Web3(new Web3.providers.HttpProvider('https://rinkeby.infura.io/v3/'));//Remove key 
 
 
 async function webCommands(){
